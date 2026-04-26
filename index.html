@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SportyStyle</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>🛍️ SportyStyle</h1>
+    <h2>🛍️ Tienda</h2>
+
+    <!-- LOGIN -->
+    <button id="loginBtn">🔐 Iniciar sesión</button>
+    <button id="logoutBtn">🚪 Cerrar sesión</button>
+    <p id="userInfo"></p>
+
+    <!-- PRODUCTOS -->
+    <h2>Productos</h2>
+    <div id="productos"></div>
+
+    <!-- CARRITO -->
+    <h2>Carrito</h2>
+    <div id="carrito"></div>
+    <p id="total"></p>
+
+    <!-- FORMULARIO -->
+    <h2>Finalizar compra</h2>
+    <form id="formCompra">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+        <input type="text" id="direccion" placeholder="Dirección" required>
+        <input type="email" id="correo" placeholder="Correo" required>
+        <input type="text" id="telefono" placeholder="Teléfono" required>
+        <button type="submit">Comprar</button>
+    </form>
+
+<script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
